@@ -34,7 +34,6 @@ public class NewCTMLogicTest {
         assertArrayEquals(Submap.X2, Submap.grid(2, 2));
         assertArrayEquals(Submap.X3, Submap.grid(3, 3));
         assertArrayEquals(Submap.X4, Submap.grid(4, 4));
-        System.out.println(Arrays.deepToString(Submap.grid(12, 4)));
     }
     
     @Test
